@@ -1,15 +1,11 @@
 #include "main.h"
 #include <stdlib.h>
 
-
 /**
- * create_array - function that creates an array
- *
- * @size: the size of the memory to print
- *
- * @c: character argument
- *
- * Return: array
+ * create_array - creates an array
+ * @size: number of items to be in array
+ * @c: initialed into ar
+ * Return: a pointer to the array, or NULL if it fails.
  */
 
 char *create_array(unsigned int size, char c)
